@@ -1,0 +1,72 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #f9f9f9;
+  color: #333;
+}
+
+header {
+  background: #6a82fb;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+header nav a {
+  margin: 0 10px;
+  text-decoration: none;
+  color: white;
+}
+
+main {
+  padding: 20px;
+}
+
+/* ✅ Reusable card style for sections */
+.section-card {
+  margin: 40px 0;
+  padding: 20px;
+  background: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.section-card h2 {
+  font-size: 24px;
+  margin-bottom: 15px;
+  color: #6a82fb;
+}
+
+.section-card ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.section-card li {
+  margin-bottom: 15px;
+  line-height: 1.6;
+  font-size: 18px;
+}
+
+.section-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0px 8px 20px rgba(106, 130, 251, 0.3);
+  transition: all 0.3s ease;
+}
+header {
+  position: relative;
+  padding: 20px;
+  background-color: #f0f0f0; /* optional */
+}
+
+.profile-photo {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  width: 100px;       /* adjust size */
+  height: 100px;      /* adjust size */
+  border-radius: 50%; /* makes it round */
+  object-fit: cover;
+  border: 2px solid #333; /* optional border */
+}
